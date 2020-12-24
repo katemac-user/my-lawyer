@@ -4,16 +4,16 @@
 
 html 
 {
-	line-height:            1.7;
+	line-height:           	1.7;
 	background-color:   	white;
 }
 
 body
 {
-    font-family:            Arial, Helvetica, sans-serif
-    font-size:              15px;
-    margin:                 0;
-    padding:                0;
+	font-family:            Arial, Helvetica, sans-serif
+	font-size:              15px;
+	margin:                 0;
+	padding:                0;
 }
 
 /***********************************************************
@@ -22,44 +22,43 @@ body
 
 .head_section
 {
-    margin:                 0px;
-    padding:                0px;
-    height:                 230px;
-    color:                  #FFF;
+	margin:                 	0px;
+	padding:                	0px;
+	color:                  	#FFF;
 }
 
 .head_container 
 {
-    max-width:               100%;
-	margin:                 0 auto;
-    overflow:               hidden;
-    background-color:       #183558;
+	max-width:               	100%;
+	margin:                 	0 auto;
+	overflow:               	hidden;
+	background-color:     		#183558;
 }
 
 .header_logo
 {
-    margin-left:            110px;
+	margin-left:            	110px;
 }
 
 .header_address
-{
-    font-size:              18px;
-    line-height:            1.5em;
-    padding-top:            20px;
+{	
+	font-size:              	18px;
+	line-height:            	1.5em;
+	padding-top:            	20px;
 }
 
-@media screen and (max-width: 767px) 
+@media only screen and (max-width: 768px) 
 {
-    /* Don't know how to put each col on one line */
-
-
+	 .row 
+	{
+	    display: flex;
+		flex-direction: column;
+	 }
 }
 
 /***********************************************************
 * TOP NAVIGATION
 ************************************************************/
-
-/* How do I move the items over to line up with logo */
 
 .topnav 
 {
@@ -115,7 +114,7 @@ body
 {
 	width:                  100%;
 	float:                  left;
-	padding-right:          20px;
+	padding-right:          0px;
 	box-sizing:             border-box;
 }
 
