@@ -32,7 +32,7 @@ body
 	max-width:               	100%;
 	margin:                 	0 auto;
 	overflow:               	hidden;
-	background-color:     		#183558;
+	background-color:    		#1b6198;
 }
 
 .header_logo
@@ -63,7 +63,7 @@ body
 .topnav 
 {
     overflow:               hidden;
-    background-color:       #367bcb;
+    background-color:       #2173b7;
 }
 
 .topnav a 
@@ -80,7 +80,7 @@ body
 
 .topnav a:hover 
 {
-    background-color:       #5babff;
+    background-color:       #509dd6;
     color:                  white;
 }
   
@@ -107,7 +107,7 @@ body
 
 .row 
 {
-	margin-left:            40px;
+	margin-left:            0px;
 }
 
 .col
